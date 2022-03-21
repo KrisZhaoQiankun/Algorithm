@@ -1,10 +1,10 @@
-package com.senwolf.stack.test;
+package com.medp.stack.test;
 
-import com.senwolf.stack.ArrayStack;
+import com.medp.stack.ArrayStack;
 import org.junit.Test;
 
 /**
- * @author SenWolf
+ * @author MEDP
  * @date 2022/2/22 21:30
  */
 

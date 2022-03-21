@@ -1,7 +1,7 @@
-package com.senwolf.queue;
+package com.medp.queue;
 
 /**
- * @author SenWolf
+ * @author MEDP
  * @date 2022/3/1 20:20
  */
 public class CircularQueue {

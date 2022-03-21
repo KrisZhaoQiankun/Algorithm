@@ -1,12 +1,11 @@
-package com.senwolf.leetcode.array;
+package com.medp.leetcode.array;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 /**
  * int数组是否包含重复数数字
  *
- * @author SenWolf
+ * @author MEDP
  * @date 2022/3/6 11:21
  */
 public class containsDuplicate {

@@ -1,14 +1,11 @@
-package com.senwolf.leetcode.array;
-
-import com.senwolf.stack.ArrayStack;
+package com.medp.leetcode.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  *
- * @author SenWolf
+ * @author MEDP
  * @date 2022/3/6 11:46
  */
 public class intersect {

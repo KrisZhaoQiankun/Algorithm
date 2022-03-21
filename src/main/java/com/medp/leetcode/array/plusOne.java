@@ -1,7 +1,7 @@
-package com.senwolf.leetcode.array;
+package com.medp.leetcode.array;
 
 /**
- * @author SenWolf
+ * @author MEDP
  * @date 2022/3/6 12:05
  */
 public class plusOne {

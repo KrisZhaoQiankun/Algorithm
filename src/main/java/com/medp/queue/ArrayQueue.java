@@ -1,9 +1,9 @@
-package com.senwolf.queue;
+package com.medp.queue;
 
 /**
  * 用数组实现的队列
  *
- * @author SenWolf
+ * @author MEDP
  * @date 2022/3/1 20:01
  */
 public class ArrayQueue {

@@ -1,12 +1,7 @@
-package com.senwolf.array;
-
-import org.w3c.dom.ls.LSException;
-
-import java.util.LinkedList;
-import java.util.List;
+package com.medp.array;
 
 /**
- * @author SenWolf
+ * @author MEDP
  * @date 2021/12/19 19:50
  * 单链表反转
  */

@@ -1,9 +1,9 @@
-package com.senwolf.stack;
+package com.medp.stack;
 
 /**
  * 数组实现的顺序栈
  *
- * @author SenWolf
+ * @author MEDP
  * @date 2022/2/22 21:18
  */
 public class ArrayStack {

@@ -1,9 +1,9 @@
-package com.senwolf.array;
+package com.medp.array;
 
 import java.util.Arrays;
 
 /**
- * @author SenWolf
+ * @author MEDP
  * @date 2022/3/6 19:25
  */
 public class Sorts {
