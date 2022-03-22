@@ -4,13 +4,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * [LeetCode-767]
  * 给定一个二叉搜索树 root 和一个目标结果 k，如果 BST 中存在两个元素且它们的和等于给定的目标结果，则返回 true。
  * 深度优先搜索
  *
  * @author MEDP
  * @date 2022/3/22 0:04
  */
-public class findTargetBST {
+public class FindTargetBST {
     Set<Integer> set = new HashSet<Integer>();
     public boolean findTarget(TreeNode root, int k) {
         if (root == null) {
