@@ -12,21 +12,29 @@ import java.util.Arrays;
 public class FindErrorNums {
 
     /**
-     * 判断有缺陷，待修改
+     *  考虑到所有的情况
      *
      * @param nums
      * @return
      */
     public int[] findErrorNums(int[] nums) {
         Arrays.sort(nums);
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] - nums[i-1] == 2) {
-                return new int[]{nums[i], nums[i] - 1};
-            } else if (nums[i] - nums[i-1] == 0){
-                return new int[]{nums[i], nums[i] + 1};
+        int n = nums.length;
+        int prev = 0;
+        int[] errorNums = new int[2];
+        for (int i = 0; i < n; i++) {
+            int curr = nums[i];
+            if (curr - prev == 0) {
+                errorNums[0] = curr;
+            } else if (curr - prev > 1){
+                errorNums[1] = prev + 1;
             }
+            prev = curr;
         }
-        return new int[]{};
+        if (nums[n-1] != n) {
+            errorNums[1] = n;
+        }
+        return errorNums;
     }
 
     /**
@@ -57,5 +65,6 @@ public class FindErrorNums {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new FindErrorNums().findErrorNums(new int[]{1, 2, 2, 4})));
+        System.out.println(Arrays.toString(new FindErrorNums().findErrorNums(new int[]{1, 1})));
     }
 }
